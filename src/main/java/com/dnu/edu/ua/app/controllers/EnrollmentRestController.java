@@ -10,9 +10,9 @@
     import java.util.Optional;
 
     @RestController
-    @RequestMapping("/enrollments")
+    @RequestMapping("/api/enrollments")
     @RequiredArgsConstructor
-    public class EnrollmentController {
+    public class EnrollmentRestController {
         private final EnrollmentService enrollmentService;
 
         @PostMapping

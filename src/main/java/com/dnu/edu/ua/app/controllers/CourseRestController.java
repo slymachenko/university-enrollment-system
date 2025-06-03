@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/courses")
+@RequestMapping("/api/courses")
 @RequiredArgsConstructor
-public class CourseController {
+public class CourseRestController {
     private final CourseService courseService;
 
     @GetMapping
